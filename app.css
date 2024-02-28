@@ -1,0 +1,29 @@
+h1 {
+    font-family: Rampart One, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    #mainInfo {
+        padding: 10px; /* Add some padding for smaller screens */
+    }
+}
+body {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the content */
+}
+
+#mainInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="submit"].submitButton:hover{
+    background-color: aquamarine;
+    transition: background-color 0.5s ease;
+}
+input[type="submit"]{
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
